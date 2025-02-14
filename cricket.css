@@ -1,0 +1,49 @@
+
+body { background-color: aqua;
+    text-align: center;
+    display: block;
+}
+@media  screen  and (min-width: 645px){
+  .body{ 
+    height: 61vh;
+    width: 60vw;}
+    .Cbuttons{
+        height: 45vh;
+        width: 45vw;
+    }
+    .Cbuttons:hover{
+        height: 45vh;
+        width: 45vw;
+    }
+    
+
+}
+
+.Cbuttons{
+    height: 100px;
+    width: 100px;
+    border: none;
+    margin: 15px;
+    background-color: rgb(200, 255, 0);
+    border-radius: 35px;
+    cursor: pointer;
+    align-content: center;
+    
+
+}
+.Image-Choice{
+    height: 75px;
+    width: 75px;
+
+}
+
+.Cbuttons:hover{
+    height: 110px;
+    width: 110px;
+    border: none;
+    margin: 10px;
+    background-color: rgb(13, 26, 209);
+    border-radius: 35px;
+    cursor: pointer;
+
+}
